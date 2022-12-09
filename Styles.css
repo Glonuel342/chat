@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: hsl(270, 20%, 96%);
+    font-family:'Rubik';
+    overflow-x: hidden;
+}
+
+.shape {
+    z-index: -1;
+    height: 75%;
+    width: 500px;
+    border-radius: 0 0 50% 50%;
+}
+
+.blob1 {
+    height: 90%;
+    position: absolute;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    top: 0;
+    left: -150px;
+}
+
+.blob2 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 0 0 80%;
+    background: #979797;
+    transform: rotate(180deg);
+}
+
+.facts {
+    width: 445px;
+    position: absolute;
+    top: 300px;
+    right: 220px;
+}
+
+.facts h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #3E2753;
+}
+
+.facts p {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #A39DA9;
+}
+
+.mobile {
+    position: absolute;
+    width: 247px;
+    height: 505px;
+    left: 263px;
+    top: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 60px -10px rgba(62, 39, 83, 0.251202);
+    border-radius: 30px;
+    padding: 11px 9.5px;
+}
+
+.interface {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.header {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 66px;
+    background: linear-gradient(225deg, #E844FF 0%, #8739FF 100%);
+    box-shadow: 0px 0px 13px rgba(62, 39, 83, 0.251202);
+    border-radius: inherit;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.camera {
+    position: absolute;
+    width: 129px;
+    height: 29px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -10px;
+
+    background: #FFFFFF;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.profile {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    position: absolute;
+    top: 30px;
+}
+
+.userprofile {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    margin-left: 20px;
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
+}
+
+.dp {
+    width: 24px;
+    height: 24px;
+    
+}
+.dp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user span {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.user p {
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 9px;
+    color: #D99EFF;
+}
