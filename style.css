@@ -27,10 +27,7 @@ body{
 
 .blob2 {
     position: absolute;
-
-
-    
-    left: 0;
+     left: 0;
     right: 0;
     bottom: 0;
     margin: 0 0 0 80%;
@@ -99,9 +96,7 @@ border-radius: 20px 20px 10px 10px;
     position: relative;
     margin-top: 0px;
     margin-right: 15px;
-    opacity: 0.8;
-
-}
+                                                                                                                                                                rx}
 .chevron::before{
     content: '';
     position: absolute;
@@ -111,7 +106,7 @@ border-radius: 20px 20px 10px 10px;
     height: 9px;
     background-color: #fff;
     transform: skew(-28deg,0deg);
-    color: aqua;
+    
 }
 
 .chevron::after{
@@ -123,7 +118,7 @@ border-radius: 20px 20px 10px 10px;
     height: 9px;
     background-color: #fff;
     transform: skew(28deg,0deg);
-    
+ 
   }  
   .avatar img{
 width: 35px;
@@ -136,7 +131,7 @@ border: 2px solid #fff;
 .name{
     color: #fff;
     margin-top:-4px;
-    font-weight: 500;
+    font-weight: 500;  
     font-size: 18px;
     margin-bottom: 2px;
 }
@@ -214,7 +209,8 @@ border-radius: 10px 10px 20px 20px;
     color: hsl(271, 15%, 43%);
     background-color: #fff;
     padding: 10px;
-    border-bottom-right-radius: 0;
+    border-bottom-right-```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````010r
+                                                                                                                                                                       adius: 0;
     margin-top: 7px;
     margin-right: 5px;
 }
