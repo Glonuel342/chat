@@ -1,120 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="Styles.css" />
-  
-  <title>Frontend Mentor | [Challenge Name Here]</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-    <div class="shape blob1"></div>
-    <div class="shape blob2"></div>
-    <div class="facts">
-      <h2> Simple booking</h2>
-    
-      <p> Stay in touch with our dog walkers through the chat interface. This makes it easy to 
-         discuss arrangements and make bookings. Once the walk has been completed you can rate 
-         your walker and book again all through the chat.</p>
-    </div> 
-    <div class="mobile">
-      <div class="interface">
-        <div class="header">
-          <div class="camera"></div>
-          <div class="profile">
-            <div class="userprofile">
-              <span><</span>
-              <div class="dp">
-                <img src="./images/avatar.jpg" alt="">
-              </div>
-              <div class="user">
-                <Span>Samuel Green</Span>
-                <p>Available to walk</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>chat-app-css-illustration</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 20%;
+        color: hsl(228, 45%, 44%);
+      }
+      .attribution a {
+        text-decoration: none;
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- mobile BODY -->
+      <section class="mobile-Body">
+        <div class="mobile">
+          <div class="mobile-screen">
+            <!-- mobile Header & Profile -->
+            <div class="mobile-header">
+              <div class="Profile-wrapper">
+                <img
+                  class="arrow"
+                  src="images/svgs/Path 4arrow icon.png"
+                  alt="arrow"
+                />
+                <img class="avatar" src="images/avatar.jpg" alt="avatar" />
+                <div class="Profile-status">
+                  <h4>Samuel Green</h4>
+                  <p>Available to Walk</p>
+                </div>
+                <img src="images/3 dot.png" alt="dots" class="dot" />
               </div>
             </div>
-            <div class="menu">
-              <div></div>
-              <div></div>
-              <div></div>
+            <div class="mobile-header-space"></div>
+            <!-- Chat Show -->
+            <div class="chat_1">
+              <p>That sounds great. I’d be happy with that.</p>
+            </div>
+            <div class="chat_2">
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+            <!-- Dog_imagery -->
+            <div class="Dog_imagery">
+              <img src="images/dog-image-1.jpg" alt="dog" class="Dog_imagery1" />
+              <img src="images/dog-image-2.jpg" alt="dog" class="Dog_imagery2" />
+              <img src="images/dog-image-3.jpg" alt="dog" class="Dog_imagery3" />
+            </div>
+            <!-- Chat show -->
+            <div class="chat_3">
+              <p>Here are a few pictures. She’s a happy girl!</p>
+            </div>
+            <div class="chat_4">
+              <p>Can you make it?</p>
+            </div>
+            <div class="chat_5">
+              <p>
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+            </div>
+            <!-- Prices show -->
+            <div class="Chat-Prices">
+              <div class="Chat-Price_1">
+                <div class="circle"></div>
+                <p class="duration">30 minute walk</p>
+                <p class="amount">$29</p>
+              </div>
+              <div class="Chat-Price_2">
+                <div class="circle2"></div>
+                <p class="duration2">1 hour walk</p>
+                <p class="amount2">$49</p>
+              </div>
+            </div>
+            <!-- Message Space -->
+            <div class="Chat-Space">
+              <p class="Type-message">Type a message…</p>
+              <div class="submit-circle">
+                <img src="images/Path.png" alt="arrow" class="submit-arrow" />
+              </div>
             </div>
           </div>
         </div>
-        <div class="message first">
-          <div class="gloria">
-            That sounds great.I'd be happy with that.
-          </div>
-        </div>
-        <div class="message second">
-          <div class="gloria">
-            could you send over some pictures of your dog,please?
-          </div>
-        </div>
-        <div class="dog">
-          <div class="dogimg">
-            <img src="images/dog-image-1.jpg" />
-          </div>
-          <div class="dogimg">
-            <img src="images/dog-image-2.jpg" alt="">
-          </div>
-          <div class="dogimg">
-            <img src="images/dog-image-3.jpg" alt="">
-          </div>
-        </div>
-        <div class="reply one">
-          <div class="gloria">
-            Here are a few pictures.She's a happy girl!
-          </div>
-        </div>
-        <div class="reply two">
-          <div class="gloria">
-            Can you make it?
-          </div>
-        </div>
-        <div class="message third">
-          <div class="gloria">
-            She looks so happy! The time we discussed works. How long shall I take her out for?
-          </div>
-        </div>
-        <div class="offer one">
-          <div class="circle"></div>
-          <div class=" hour ">
-            30 minute walk
-          </div>
-          <div class="fee">
-                $29
-          </div>
-        </div>
-        <div class="offer two">
-          <div class="circle ">
-          </div>
-          <div class=" hour">
-           1 hour walk
-          </div>
-          <div class="fee ">
-                $49
-        </div>
-         </div>
-        <div class="keyboard">
-          <p>Type a message…</p>
-          <div class="arrow">></div>
-        </div>
-      </div>
-    </div>
-    
-  
-  
+        <div class="purple-oval"></div>
+      </section>
 
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Gloria Nana Yaa Gyamfi</a>.
-  </div> -->
-</body>
-</html> 
+      <!-- DESCRIPTION -->
+      <article class="Description">
+        <h4>Simple booking</h4>
+        <br />
+        <p>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+        <div class="white-oval"></div>
+      </article>
+    </main>
+    <!-- footer -->
+    <footer class="attribution">
+      <!-- Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor </a>Gloria Nana Yaa Gyamfi</a
+      > -->
+    </footer>
+  </body>
+</html>
